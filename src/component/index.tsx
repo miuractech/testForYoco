@@ -2,15 +2,13 @@ import logo from "../YOCO.svg";
 
 export default function Component() {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-      }}
-    >
-      <img src={logo} alt="" />
-    </div>
+
+<div
+>
+  <img src={logo} alt="" style={{ width: "200px", height: "auto" ,  position: "fixed",
+    top: 0,
+    left: 0,
+    right: 0, }} />
+</div>
   );
 }
